@@ -28,5 +28,6 @@ public class Main {
         public static String createFullName (String fName, String lName){
            return fName + " "+lName;
     }
+//    Car = new Car(Make Camaro 2SS, Model: Chevy, mileage: 10000, gasTankPercent: 0.10)
 
 }
