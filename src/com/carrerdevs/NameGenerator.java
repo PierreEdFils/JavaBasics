@@ -8,15 +8,19 @@ public class NameGenerator {
         return firstName + " " + lastName;
     } public static void main(String [] args) {
 
+        whatIsYourFullName();
+    }
+
+    public static void whatIsYourFullName() {
         Scanner scanner= new Scanner(System.in);
-        System.out.println("What is your first name\nfirstName :");
+
+        System.out.println("What is your First name\nFirst Name :");
         String firstName = scanner.nextLine();
 
-        System.out.println("What is your last name\nlastName :");
+        System.out.println("What is your Last name\nLast Name :");
         String lastName = scanner.nextLine();
 
         System.out.println("It is so nice to formally meet you"+ firstName +" "+ lastName);
-
 
     }
 }
