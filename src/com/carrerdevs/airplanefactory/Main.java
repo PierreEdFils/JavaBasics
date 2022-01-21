@@ -30,7 +30,6 @@ public class Main {
         String airLineName =scan.nextLine() ;
 
 
-        System.out.println("End of User Input ");
 
         //2nd create Airplane instance
         Airplane airplane = new Airplane(passengers,maxSpeed,idCharacter,airLineName);

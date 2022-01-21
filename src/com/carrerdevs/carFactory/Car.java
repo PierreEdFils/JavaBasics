@@ -9,25 +9,24 @@ public class Car {
 
     // 1) Fields
 
-    public String ownerName ;
-    public String makeCar;
-    public String  modelCar ;
+
+    public String make;
+    public String model;
     public int carMileage;
     public float gasTankPercentage;
 
 
     // 2) Constructor/s
 
-    public Car(String ownerName, String makeCar, String modelCar, int carMileage, float gasTankPercentage) {
-        this.ownerName = ownerName;
-        this.makeCar = makeCar;
-        this.modelCar = modelCar;
-//        this.carMileage = carMileage;
-//        this.gasTankPercentage = gasTankPercentage;
+    public Car( String make, String model, int carMileage, float gasTankPercentage) {
+
+        this.make = make;
+        this.model = model;
+        this.carMileage = carMileage;
+        this.gasTankPercentage = gasTankPercentage;
     }
 
-    public Car(String ownerName, String makeCar, String modelCar) {
-    }
+
 
 
     // 3) Getter/Setter
@@ -38,11 +37,11 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-                "ownerName='" + ownerName + '\'' +
-                ", makeCar='" + makeCar + '\'' +
-                ", modelCar='" + modelCar + '\'' +
-//                ", carMileage=" + carMileage +
-//                ", gasTankPercentage=" + gasTankPercentage +
+
+                ", makeCar='" + make + '\'' +
+                ", modelCar='" + model + '\'' +
+                ", carMileage=" + carMileage +
+                ", gasTankPercentage=" + gasTankPercentage +
                 '}';
     }
 }
