@@ -25,5 +25,12 @@ public class Company {
     // 4) Others Methods
 
 
-
+    @Override
+    public String toString() {
+        return "Company{" +
+                "name='" + name + '\'' +
+                ", yearEstablished=" + yearEstablished +
+                ", marketCap=" + marketCap +
+                '}';
+    }
 }

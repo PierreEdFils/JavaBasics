@@ -14,6 +14,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         // 1st take user Input
+
         String title =scan.nextLine() ;
         scan.nextLine();
     }
